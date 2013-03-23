@@ -1,7 +1,9 @@
 #!/usr/bin/python
 """ ELF file parsing class. 
 
-    Currently supports look up of dependency lib names from 32- & 64-bit ELF."""
+    Currently supports look up of dependency lib names from 32- & 64-bit ELF.
+    
+    See find_dependency_libraries() or open an ELF file with _open_b() """
 
 class _open_b(file):
     """ Extension of file class constructor with byte iterators and accessors. 

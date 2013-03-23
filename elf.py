@@ -147,7 +147,7 @@ def _find_section(bile,sectionname):
     return dict(zip(labels,[reading[i]() for i in shtypes]))
 
 def find_dependency_libraries(bile):
-    """ Give ELF dependency lib names for ELF _open_b bile. 
+    """ Give ELF dependency lib names for ELF _open_b binary-mode file 'bile'. 
         
         Return list of strings which are library names as found in the file.
         No paths or context outside the file is given. """
